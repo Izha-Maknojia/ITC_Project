@@ -1,0 +1,64 @@
+  <!DOCTYPE html>
+<html>
+<head>
+    <title>ProjectX Password Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Header -->
+<div class="navbar">
+    <h1>ProjectX</h1>
+</div>
+
+<!-- Main Content -->
+<div class="main">
+
+    <h2>Password Manager</h2>
+    <p class="intro">
+        Your digital life contains many passwords. ProjectX helps you store
+        and manage them easily in one place.
+    </p>
+
+    <h3>Your Passwords</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody id="passwordList">
+            <tr>
+                <td colspan="4" class="no-data">No Data To Show</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h3>Add a Password</h3>
+
+    <div class="form">
+        <label>Website</label>
+        <input type="text" id="website">
+
+        <label>Username</label>
+        <input type="text" id="username">
+
+        <label>Password</label>
+        <input type="password" id="password">
+
+        <button onclick="savePassword()">Submit</button>
+    </div>
+
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    Made By Izha Maknojia , Hiba Ali & Abdul Sajid 
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
